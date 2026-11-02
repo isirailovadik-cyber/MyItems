@@ -1,0 +1,13 @@
+name: MyItems
+version: ${version}
+main: dev.myitems.MyItemsPlugin
+api-version: '1.21'
+description: Кастомные предметы через item_model + ресурспак
+commands:
+  myitems:
+    description: Управление кастомными предметами
+    usage: /myitems <give|reload|list> [id] [игрок]
+    permission: myitems.admin
+permissions:
+  myitems.admin:
+    default: op

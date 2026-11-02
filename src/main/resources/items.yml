@@ -1,0 +1,14 @@
+# Описание кастомных предметов.
+# model — ключ item_model; ресурспак должен содержать assets/<namespace>/items/<name>.json
+items:
+  ruby_sword:
+    display_name: "<red>Рубиновый меч"
+    base_material: DIAMOND_SWORD
+    model: "myitems:ruby_sword"
+    lore:
+      - "<gray>Первый кастомный предмет"
+  ruby:
+    display_name: "<red>Рубин"
+    base_material: PAPER
+    model: "myitems:ruby"
+    lore: []
